@@ -1,0 +1,14 @@
+<nav>
+  <ul class="nav flex-column">
+        {%- for link in navigationLinks -%}
+    <li class="nav-item mb-5">
+        <h4 class="nav-group-title font-weight-bold"><a class="nav-link" href="{{ link.link }}">{{ link.title }}</a></h4>
+        <ul class="nav flex-column">
+          {%- for child in link.children -%}
+          <li {% if page.url == child.link %} aria-current="page"{% endif %}><a href="{{ child.link }}" class="nav-link {% if page.url == child.link %} active {% endif %}" >{{ child.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+    </li>
+        {%- endfor -%}
+  </ul>
+</nav>

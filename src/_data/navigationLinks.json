@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Mops",
+    "link": "/",
+    "children": [
+      {
+        "title": "About",
+        "link": "/about/"
+      },
+      {
+        "title": "News",
+        "link": "/news/"
+      }
+    ]
+  }
+]

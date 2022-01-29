@@ -1,0 +1,9 @@
+{
+  "name": "powermops-11",
+  "version": "2.0.0",
+  "description": "Powermops - Mops web site",
+  "author": "Jim Tittsler <jimt@onjapan.net>",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

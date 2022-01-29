@@ -1,0 +1,30 @@
+{
+  "navigationLinks": [
+    {
+      "title": "Powermops",
+      "link": "#",
+      "children": [
+        {
+          "title": "Open Me First",
+          "link": "/pmops/openmefirst/"
+        },
+        {
+          "title": "Manual",
+          "link": "/pmops/overview/"
+        },
+        {
+          "title": "FAQ",
+          "link": "/pmops/faq/"
+        },
+        {
+          "title": "Wiki",
+          "link": "http://wiki.powermops.org/"
+        },
+        {
+          "title": "SourceForge",
+          "link": "https://sourceforge.net/projects/powermops/"
+        }
+      ]
+    }
+  ]
+}

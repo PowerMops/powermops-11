@@ -1,0 +1,12 @@
+[build]
+  command = "npx @11ty/eleventy"
+  publish = "_site"
+
+[[redirects]]
+  from = "/index.php*"
+  to = "/"
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about/"
+
